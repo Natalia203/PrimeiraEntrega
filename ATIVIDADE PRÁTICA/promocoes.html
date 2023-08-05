@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BR TOUR</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">BR Tour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Página Inicial</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Destinos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./destinoPraia.html">Praias</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./destinoCapitais.html">Capitais</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="./destinoCidHis.html">Cidades Históricas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./promocoes.html">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./contato.html">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-primary" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" style=" margin: 20px; max-height: 900px;">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="max-height: 580px;">
+        <img src="./img/praia2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Lindas Praias </h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item" style="max-height: 580px;">
+        <img src="./img/capital4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4> Capitais </h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item" style="max-height: 580px;">
+        <img src="./img/cidadehis2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h4>Cidades Históricas</h4>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button><br><br>
+
+<h3>Pacote Praia</h3>
+    <div class="card-group" style="gap: 5px;">
+      <div class="card">
+        <img src="./img/riodejaneiro.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rio de Janeiro</h5>
+          <p class="card-text">- Passagem aérea (ida e volta)<br>
+          - Hospedagem<br>
+          - Café da manhã
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$849</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/maceio.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Maceió</h5>
+          <p class="card-text">- Passagem aérea (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã | Almoço </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$689</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/ceara.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ceará</h5>
+          <p class="card-text">- Passagem aérea (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã | Almoço | Jantar</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$749</strong></small>
+        </div>
+      </div>
+    </div><br>
+
+    <h3>Pacote Capitais</h3>
+    <div class="card-group" style="gap: 5px;">
+      <div class="card">
+        <img src="./img/saopaulo1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">São Paulo</h5>
+          <p class="card-text">- Passagem aérea/ônibus (ida e volta)<br>
+          - Hospedagem<br>
+          - Café da manhã
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$549</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/curitiba.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Curitiba</h5>
+          <p class="card-text">- Passagem aérea (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$489</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/Beloryhills.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Belo Horizonte</h5>
+          <p class="card-text">- Passagem aérea/ônibus (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$449</strong></small>
+        </div>
+      </div>
+    </div><br>
+
+
+    <h3>Pacote Cidades Históricas</h3>
+    <div class="card-group" style="gap: 5px;">
+      <div class="card">
+        <img src="./img/congonhas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Congonhas </h5>
+          <p class="card-text">- Passagem (ida e volta)<br>
+          - Hospedagem<br>
+          - Café da manhã | Almoço | Janta
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R249</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/tiradentes.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tiradentes</h5>
+          <p class="card-text">- Passagem (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã | Almoço | Janta </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$289</strong></small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./img/saoluis.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">São Luís</h5>
+          <p class="card-text">- Passagem (ida e volta)<br>
+            - Hospedagem<br>
+            - Café da manhã | Almoço | Jantar</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">A partir de <strong>R$649</strong></small>
+        </div>
+      </div>
+    </div><br>
+
+
+    <footer class="text-center text-white bg-primary">
+      <div class="container">
+        <section class="mt-5">
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./index.html" class="text-white">HOME </a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./sobreNos.html" class="text-white">Sobre Nós</a>
+              </h6>
+            </div>
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./contato.html" class="text-white">Contato</a>
+              </h6>
+            </div>
+          </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+      </div>
+    </footer>
+</body>
+
+</html>

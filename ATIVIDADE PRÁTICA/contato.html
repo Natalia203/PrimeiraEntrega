@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR TOUR</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">BR Tour</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Destinos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./destinoPraia.html">Praias</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./destinoCapitais.html">Capitais</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./destinoCidHis.html">Cidades Históricas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./promocoes.html">Promoções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav><br>
+
+    <div class="card-group" style="margin: 10px;">
+        <div class="card">
+            <h5 class="card-header" style="text-align: center;">Endereço</h5>
+            <div class="card-body">
+                <h5 class="card-title">Matriz</h5>
+                <p class="card-text">Av. Santa Terezinha, 1000 - Santa Terezinha - Belo Horizonte/MG</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h5 class="card-header" style="text-align: center;">E-mail</h5>
+            <div class="card-body">
+                <h5 class="card-title">E-mail para contato</h5>
+                <p class="card-text">brtour@gmail.com | brtour@outlook.com </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h5 class="card-header" style="text-align: center;">Telefone </h5>
+            <div class="card-body">
+                <h5 class="card-title">Telefones para contato</h5>
+                <p class="card-text">(31) 5555-0123 | (31) 9 5555-0123</p>
+            </div>
+        </div>
+    </div><br>
+
+    <h1 style="margin: 10px;"> Fale Conosco </h1>
+    <p style="margin: 10px;">Envie sua mensagem ou pedido. Estamos à disposição para atendê-lo.</p><br>
+
+    <div class="mb-3" style="margin: 10px;">
+        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+    </div>
+    <div class="mb-3" style="margin: 10px;">
+        <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3" style="margin: 10px;">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+        <input name="btnEnviar" type="submit" class="btn btn-primary" value="Enviar Mensagem" />
+    </div>
+
+
+    <footer class="text-center text-white bg-primary">
+        <div class="container">
+            <section class="mt-5">
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./index.html" class="text-white">HOME </a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./sobreNos.html" class="text-white">Sobre Nós</a>
+                        </h6>
+                    </div>
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./contato.html" class="text-white">Contato</a>
+                        </h6>
+                    </div>
+                </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright:
+        </div>
+    </footer>
+</body>
+
+</html>
